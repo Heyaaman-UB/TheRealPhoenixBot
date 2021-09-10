@@ -24,13 +24,13 @@ Hi {}, my name is {}!
 You can find the list of available commands with /help.
 """
 
-BOT_IMAGE = "https://telegra.ph/file/93612a540608640355f20.mp4"
+BOT_IMAGE = "https://telegra.ph/file/cbd8d600f3d5ac62a2b8f.jpg"
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
-If you have any questions on how to use me, head over to @PhoenixSupport
+If you have any questions on how to use me, head over to @CFC_BOT_support
 
 *Main* commands available:
  - /start: start the bot
@@ -148,7 +148,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Pɧơɛnıх to your group.",
+                                text="Add Phoenix to your group.",
                                 url="t.me/{}?startgroup=botstart".format(bot.username),
                             )
                         ]
